@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.products-container {
+  max-width: 800px;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 80px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.product-header {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 4px solid lightblue;
+  margin: 0 auto;
+  text-align: center;
+}
+.product-title {
+  width: 45%;
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+.price {
+  width: 15%;
+  text-align: center;
+  margin: auto;
+}
+.total {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+.quantity {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+div.quantity {
+  width: 22%;
+  padding: 0 3%;
+}
+div.price {
+  margin-left: 45px;
+}
+.products {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.product {
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  margin-left: -30px;
+}
+/* .product:before {
+  content: "";
+  width: 800px;
+  height: 1px;
+  display: block;
+  position: absolute;
+  background: limegreen;
+  margin-top: 80px;
+  margin-left: 500px;
+} */
+
+i.fa.fa-window-close {
+  margin-left: -40px;
+  cursor: pointer;
+}
+.product img {
+  text-align: center;
+  width: 60px;
+  height: 80px;
+}
+.basketTotalContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 10px 0;
+  border-top: 4px solid lightblue;
+}
+
+.basketTotalTitle {
+  width: 20%;
+}
+.basketTotal {
+  width: 13%;
+}
